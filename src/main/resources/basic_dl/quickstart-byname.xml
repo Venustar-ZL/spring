@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id = "person"  class = "basic_dl.quickstart_byname.bean.Person"></bean>
+
+<bean id = "demoMysqlDao" class="basic_dl.quickstart_byname.dao.impl.DemoMySqlDao"></bean>
+<bean id = "demoPGDao" class="basic_dl.quickstart_byname.dao.impl.DemoPGDao"></bean>
+</beans>
